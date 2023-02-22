@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413e7f64-e0ac-4db7-a01d-a48b9e06ab0e" name="Changes" comment="delade upp metoder" />
+    <list default="true" id="413e7f64-e0ac-4db7-a01d-a48b9e06ab0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,25 +66,12 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1677061203398</updated>
     </task>
-    <task id="LOCAL−00003" summary="fixade main">
-      <created>1677063357509</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1677063357509</updated>
-    </task>
-    <task id="LOCAL−00004" summary="delade upp metoder">
-      <created>1677063706993</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1677063706993</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lade till main" />
     <MESSAGE value="fixade main" />
-    <MESSAGE value="delade upp metoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="delade upp metoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixade main" />
   </component>
 </project>
