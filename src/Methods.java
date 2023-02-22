@@ -14,14 +14,16 @@ class Methods {
     }
     public static void addExercise(Scanner input, List<String> ovningar, Map<String, Integer> userProgress) {
         System.out.println("Skriv namnet på övningen samt antal reps eller \"avsluta\" för att sluta lägga in");
-        String exerc = input.next();
-        int reps = input.nextInt();
-        if (exerc.toLowerCase().equals("avsluta")) {
-            break;
-        } else if (ovningar.contains(exerc)) {
-            userProgress.put(exerc, reps);
-        } else {
-            System.out.println("Övningen finns inte. Försök igen");
+        while (input.hasNext()) {
+            String exerc = input.next();
+            int reps = input.nextInt();
+            if (exerc.equalsIgnoreCase("avsluta")) {
+                break;
+            } else if (ovningar.contains(exerc)) {
+                userProgress.put(exerc, reps);
+            } else {
+                System.out.println("Övningen finns inte. Försök igen");
+            }
         }
     }
 
