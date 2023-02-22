@@ -75,4 +75,7 @@ Slut.
 
          */
     }
+    static void addExercise(String name, int reps) {
+
+    }
 }
