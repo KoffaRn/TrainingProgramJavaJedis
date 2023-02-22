@@ -1,16 +1,17 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 public class Main {
-    ArrayList<String> ovningar = new ArrayList<>();
-    HashMap<String, Integer> userProgram = new HashMap<>();
-    HashMap<String, Integer> userProgress = new HashMap<>();
+    static ArrayList<String> ovningar = new ArrayList<>();
+    static HashMap<String, Integer> userProgram = new HashMap<>();
+    static HashMap<String, Integer> userProgress = new HashMap<>();
+
+    public static void main(String[] args) {
         ovningar.add("Bänkpress");
         ovningar.add("Marklyft");
         ovningar.add("Knäböj");
         ovningar.add("Chins");
         ovningar.add("Curls");
         ovningar.add("Dips");
-    public static void main(String[] args) {
 
 
         /*
@@ -77,6 +78,6 @@ Slut.
          */
     }
     static void addExercise(String name, int reps) {
-        userProgram.add
+
     }
 }
