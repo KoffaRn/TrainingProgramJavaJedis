@@ -3,11 +3,60 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 import static java.lang.System.in;
+
 public class Main {
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<String> ovningar = new ArrayList<>();
     static HashMap<String, Integer> userProgram = new HashMap<>();
     static HashMap<String, Integer> userProgress = new HashMap<>();
+
+    static void createUserProgram() {
+        while (true) {
+            int index = 0;
+
+            Scanner scanner = new Scanner(in);
+            System.out.println("1. Lägg till övning");
+            System.out.println("2. Ta bort övning");
+            System.out.println("3. Visa program");
+            System.out.println("4. Avsluta");
+            int addChoice = scanner.nextInt();
+
+            switch (addChoice) {
+                case 1 -> {
+                    System.out.println("Tillgängliga övningar: ");
+                    for (String s : ovningar) {
+                        System.out.println(index + 1 + ". " + s);
+                        index++;
+                    }
+                    Scanner ovningScanner = new Scanner(in);
+                    System.out.println("Vilken övning vill du lägga till?");
+                    int excersiseChoice = ovningScanner.nextInt();
+                    Scanner repScanner = new Scanner(in);
+                    System.out.println("Hur många reps vill du lägga till?");
+                    int repCount = repScanner.nextInt();
+                    userProgram.put(ovningar.get(excersiseChoice - 1), repCount);
+                }
+                case 2 -> {
+                    System.out.println("Vilken övning vill du ta bort?");
+                    userProgram.forEach(
+                            (key, value) -> System.out.println(key));
+                    Scanner utilScanner = new Scanner(in);
+                    String choice = utilScanner.nextLine();
+                    if (userProgram.containsKey(choice)) {
+                        userProgram.remove(choice);
+                        System.out.println(choice + " togs bort.");
+                    } else
+                        System.out.println(choice + " finns inte i programmet.");
+                }
+                case 3 -> {
+                    userProgram.forEach((key, value) -> System.out.println(key + ", " + value));
+                }
+                case 4 -> {
+                    return;
+                }
+            }
+        }
+    }
 
     /**
      * printa ut huvudmenyn
@@ -74,7 +123,7 @@ public class Main {
                     scanner.nextInt();
                     break;
                 case (2):
-                    // TODO
+                    createUserProgram();
                     break;
                 case (3):
                     // TODO
@@ -167,52 +216,5 @@ public class Main {
          * 
          */
     }
-    static void createUserProgram() {
-        while(true) {
-            int index = 0;
 
-            Scanner scanner = new Scanner(in);
-            System.out.println("1. Lägg till övning");
-            System.out.println("2. Ta bort övning");
-            System.out.println("3. Visa program");
-            System.out.println("4. Avsluta");
-            int addChoice = scanner.nextInt();
-
-            switch(addChoice) {
-                case 1 -> {
-                    System.out.println("Tillgängliga övningar: ");
-                    for(String s : ovningar) {
-                        System.out.println(index + 1 + ". " + s);
-                        index++;
-                    }
-                    Scanner ovningScanner = new Scanner(in);
-                    System.out.println("Vilken övning vill du lägga till?");
-                    int excersiseChoice = ovningScanner.nextInt();
-                    Scanner repScanner = new Scanner(in);
-                    System.out.println("Hur många reps vill du lägga till?");
-                    int repCount = repScanner.nextInt();
-                    userProgram.put(ovningar.get(excersiseChoice - 1), repCount);
-                }
-                case 2 -> {
-                    System.out.println("Vilken övning vill du ta bort?");
-                    userProgram.forEach(
-                            (key, value)
-                                -> System.out.println(key)
-                    );
-                    Scanner utilScanner = new Scanner(in);
-                    String choice = utilScanner.nextLine();
-                    if(userProgram.containsKey(choice)) {
-                        userProgram.remove(choice);
-                        System.out.println(choice + " togs bort.");
-                    }else System.out.println(choice + " finns inte i programmet.");
-                }
-                case 3 -> {
-                    userProgram.forEach((key, value) -> System.out.println(key + ", " + value));
-                }
-                case 4 -> {
-                    return;
-                }
-            }
-        }
-    }
 }
