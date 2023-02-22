@@ -1,11 +1,8 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-<<<<<<< HEAD
-=======
-import static java.lang.System.in;
->>>>>>> d945ea9bf527423890825b057edc46dcc3f04455
 
+import static java.lang.System.in;
 public class Main {
     static Scanner scanner = new Scanner(System.in);
     static ArrayList<String> ovningar = new ArrayList<>();
@@ -60,7 +57,6 @@ public class Main {
         ovningar.add("Chins");
         ovningar.add("Curls");
         ovningar.add("Dips");
-<<<<<<< HEAD
 
         boolean continueLoop = true;
         while (continueLoop) {
@@ -91,9 +87,6 @@ public class Main {
                     break;
             }
         }
-=======
-        createUserProgram();
->>>>>>> d945ea9bf527423890825b057edc46dcc3f04455
 
         /*
          * 
@@ -174,14 +167,9 @@ public class Main {
          * 
          */
     }
-<<<<<<< HEAD
-
-    static void addExercise(String name, int reps) {
-=======
     static void createUserProgram() {
         while(true) {
             int index = 0;
->>>>>>> d945ea9bf527423890825b057edc46dcc3f04455
 
             Scanner scanner = new Scanner(in);
             System.out.println("1. Lägg till övning");
