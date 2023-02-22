@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413e7f64-e0ac-4db7-a01d-a48b9e06ab0e" name="Changes" comment="Fixed merge issues">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="413e7f64-e0ac-4db7-a01d-a48b9e06ab0e" name="Changes" comment="Fixed switch cases" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +98,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1677072873396</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Fixed switch cases">
+      <created>1677073798225</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1677073798225</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +112,7 @@
     <MESSAGE value="fixade main" />
     <MESSAGE value="delade upp metoder" />
     <MESSAGE value="Fixed merge issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed merge issues" />
+    <MESSAGE value="Fixed switch cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed switch cases" />
   </component>
 </project>
