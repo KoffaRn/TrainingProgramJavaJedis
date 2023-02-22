@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413e7f64-e0ac-4db7-a01d-a48b9e06ab0e" name="Changes" comment="delade upp metoder">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="413e7f64-e0ac-4db7-a01d-a48b9e06ab0e" name="Changes" comment="Fixed merge issues">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +94,20 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1677067551213</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Fixed merge issues">
+      <created>1677072873396</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1677072873396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lade till main" />
     <MESSAGE value="fixade main" />
     <MESSAGE value="delade upp metoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="delade upp metoder" />
+    <MESSAGE value="Fixed merge issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed merge issues" />
   </component>
 </project>

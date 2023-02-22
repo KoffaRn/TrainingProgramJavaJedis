@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import static java.lang.System.exit;
 import static java.lang.System.in;
 
 public class Main {
@@ -130,6 +131,9 @@ public class Main {
                     break;
                 case (4):
                     // TODO
+                    break;
+                case (5):
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Fel inmatning, försök igen.");
