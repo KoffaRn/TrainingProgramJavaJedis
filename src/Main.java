@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     static Scanner scanner = new Scanner(System.in);
+    static ArrayList<String> ovningar = new ArrayList<>();
+    static HashMap<String, Integer> userProgram = new HashMap<>();
+    static HashMap<String, Integer> userProgress = new HashMap<>();
 
     /**
      * printa ut huvudmenyn
@@ -47,15 +50,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        ArrayList<String> exercises = new ArrayList<>();
-        HashMap<String, Integer> userProgram = new HashMap<>();
-        HashMap<String, Integer> userProgress = new HashMap<>();
-        exercises.add("Bench press");
-        exercises.add("Deadlift");
-        exercises.add("Squat");
-        exercises.add("Chins");
-        exercises.add("Curls");
-        exercises.add("Dips");
+
+        ovningar.add("Bänkpress");
+        ovningar.add("Marklyft");
+        ovningar.add("Knäböj");
+        ovningar.add("Chins");
+        ovningar.add("Curls");
+        ovningar.add("Dips");
 
         boolean continueLoop = true;
         while (continueLoop) {
@@ -68,7 +69,7 @@ public class Main {
                     continueLoop = false;
                     break;
                 case (1):
-                    printExercises(exercises);
+                    printExercises(ovningar);
                     System.out.print("Skriv in ett tal: ");
                     scanner.nextInt();
                     break;
