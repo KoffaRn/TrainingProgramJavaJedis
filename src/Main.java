@@ -16,17 +16,17 @@ public class Main {
 
 
         Metoder vi behöver:
-        Visa menyn, läs in användarens val, (avsluta)
+        Visa menyn, läs in användarens val, (avsluta) // Habib
 
-        Visa tillgängliga övningar (ovningar)
+        Visa tillgängliga övningar (ovningar) // Habib
 
-        * En metod för att lägga till övning och reps i userProgram / sluta lägga till (klar med programmet)
+        * En metod för att lägga till övning och reps i userProgram / sluta lägga till (klar med programmet) //Kristoffer
 
-        En metod för att visa userProgram
+        En metod för att visa userProgram //Ellen
 
-        * En metod för att lägga till övningar man gjort i hashMap userProgress
+        * En metod för att lägga till övningar man gjort i hashMap userProgress // Sandra
 
-        " En metod för att skriva ut userProgress
+        " En metod för att skriva ut userProgress // Den som blir klar med sin metod först (skriv på discord)
 
 
 
